@@ -1,0 +1,87 @@
+.preNav {
+  background-color: rgb(29, 28, 28);
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  color: white;
+  padding: 0 2vmax; 
+}
+.preNav > div{
+  padding: 0 10vmax;
+  display: flex;
+}
+
+.preNav > div > a > img {
+  width: 2.4vmax;
+}
+
+.preNav > div > a{
+
+  color: rgb(180, 180, 180);
+  font-size: 1.3vmax;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  margin: 1.4vmax;
+  text-decoration: none;
+}
+
+
+
+.preNavLeft {
+  position: relative;
+  right: 10vmax;
+  align-items: center;
+}
+
+
+
+.preNavRight {
+  align-items: center;
+  left: 11vmax;
+  position: relative;
+
+}
+
+
+.preNav > div > a:hover{
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .preNav {
+  padding: 1vmax 10vmax; 
+}
+
+.preNav > div > a > img {
+  width: 2.2vmax;
+}
+
+.preNav > div > a{
+  color: rgb(180, 180, 180);
+  font-size: 1.2vmax;
+  margin: 0.6vmax;
+}
+.preNavRight {
+  left: -3vmax;
+}
+
+
+.preNav > div:last-child  > a {
+  width: 6.2vmax;
+  font-size: 1.2vmax;
+}
+
+.preNavRight_Cart  {
+  display: none !important;
+
+}
+
+  .preNav > div{
+    padding: 0 1vmax;
+  }
+
+  .sideLogin {
+    position: relative;
+    left: 5.5vmax;
+    text-align: center;
+  }
+}
